@@ -1,8 +1,8 @@
 # save it as /etc/profile.d/ssh-telegram.sh
 # use jq to parse JSON from ipinfo.io
 # get jq from here http://stedolan.github.io/jq/
-USERID="194599761"
-KEY="276378746:AAG6fDZ5tiwrICYW1mDGdMZpE82vUhXvdf0"
+USERID="123356"   #use chat id here
+KEY="123456:ksjdjhksdhfksdhfksdjhfksjdkfk"  #use your token here
 TIMEOUT="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 DATE_EXEC="$(date "+%d %b %Y %H:%M")"
